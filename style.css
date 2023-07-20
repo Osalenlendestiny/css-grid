@@ -1,0 +1,12 @@
+.grid-box{
+display: grid;
+grid-template-columns: 3fr 2fr ;
+grid-gap: 1em;
+}
+.grid-box > div{
+background: rgb(187, 187, 187);
+padding: 1em;
+}
+.grid-box >div:nth-child(odd){
+background: #ddd;
+}
